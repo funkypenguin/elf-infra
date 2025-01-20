@@ -1032,7 +1032,7 @@ spec:
         # @schema
         override: ~
         repository: "quay.io/cilium/certgen"
-        tag: "v0.2.0"
+        tag: "v0.2.3"
         digest: "sha256:169d93fd8f2f9009db3b9d5ccd37c2b753d0989e1e7cd8fe79f9160c459eef4f"
         useDigest: true
         pullPolicy: "IfNotPresent"
@@ -3443,7 +3443,7 @@ spec:
               # @schema
               override: ~
               repository: "docker.io/library/busybox"
-              tag: "1.36.1"
+              tag: "1.37.0"
               digest: "sha256:d75b758a4fea99ffff4db799e16f853bbde8643671b5b72464a8ba94cbe3dbe3"
               useDigest: true
               pullPolicy: "IfNotPresent"
@@ -3456,7 +3456,7 @@ spec:
                 # @schema
                 override: ~
                 repository: "ghcr.io/spiffe/spire-agent"
-                tag: "1.9.6"
+                tag: "1.11.1"
                 digest: "sha256:5106ac601272a88684db14daf7f54b9a45f31f77bb16a906bd5e87756ee7b97c"
                 useDigest: true
                 pullPolicy: "IfNotPresent"
@@ -3507,7 +3507,7 @@ spec:
                 # @schema
                 override: ~
                 repository: "ghcr.io/spiffe/spire-server"
-                tag: "1.9.6"
+                tag: "1.11.1"
                 digest: "sha256:59a0b92b39773515e25e68a46c40d3b931b9c1860bc445a79ceb45a805cab8b4"
                 useDigest: true
                 pullPolicy: "IfNotPresent"
